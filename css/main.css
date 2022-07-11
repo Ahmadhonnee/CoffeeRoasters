@@ -201,7 +201,7 @@ ul{
     border-radius: 6px;
     padding: 15px 30px;
 }
-.planning__button:hover{
+.booking__planning__button:hover{
     opacity: 0.5;
 }
 /* hero */
@@ -223,7 +223,7 @@ ul{
     font-family: 'Fraunces';
     font-style: normal;
     font-weight: 900;
-    font-size: 180px;
+    font-size: 160px;
     line-height: 72px;
     color: #000;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.632) 0%, #ffffff 90%);
@@ -300,7 +300,7 @@ ul{
     width: 540px;
     height: 80px;
 }
-.service__items{
+.services__items{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -311,7 +311,7 @@ ul{
     right: 0;
     margin: 0 auto;
 }
-.service__card{
+.services__card{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -321,7 +321,7 @@ ul{
     height: 380px;
     padding: 70px 45px 30px 45px;
 }
-.service__card__h3{
+.services__card__h3{
     font-family: 'Fraunces';
     font-style: normal;
     font-weight: 900;
@@ -331,7 +331,7 @@ ul{
     color: #FEFCF7;
     margin-top: 50px;
 }
-.service__card__p{
+.services__card__p{
     font-family: 'Barlow';
     font-style: normal;
     font-weight: 400;
@@ -347,7 +347,7 @@ ul{
     margin-top: 300px;
     margin-bottom: 100px;
 }
-.progress__line{
+.booking__progress__line{
     width: 760px;
     height: 1px;
     border: 3px solid #FDD6BA;
@@ -394,7 +394,7 @@ ul{
     width: 285px;
     height: 400px;
 }
-.bookng__p1{
+.booking__p1{
     font-family: 'Fraunces';
     font-style: normal;
     font-weight: 900;
@@ -413,7 +413,7 @@ ul{
     padding: 20px 0;
     width: 255px;
 }
-.bookng__p2{
+.booking__p2{
     font-family: 'Barlow';
     font-style: normal;
     font-weight: 400;
