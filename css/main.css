@@ -139,6 +139,11 @@
     align-items: center;
     justify-content: space-between;
     padding: 50px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 10;
 }
 ul{
     list-style: none;
@@ -528,8 +533,8 @@ ul{
    visibility: visible;
    transform: translateY(0px);
 }
-#checkbox1:checked ~ .forms__svg{
-    transform: rotateX(180deg);
+#checkbox1:checked .forms__svg{
+    transform: rotateZ(180deg);
  }
 #checkbox2:checked ~ .dropdown__items{
     opacity: 1;
