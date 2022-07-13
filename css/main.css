@@ -534,7 +534,7 @@ ul{
    transform: translateY(0px);
 }
 #checkbox1:checked .forms__svg{
-    transform: rotateZ(180deg);
+    transform: rotateZ(180deg);                                   /* error here */
  }
 #checkbox2:checked ~ .dropdown__items{
     opacity: 1;
