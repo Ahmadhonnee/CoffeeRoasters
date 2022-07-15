@@ -167,6 +167,13 @@
         padding: 15px 30px;
         margin-top: 40px;
         margin-left: auto;
+        border: none;
+        &:hover{
+            opacity: 0.9;
+        }
+        &:active{
+            opacity: 0.8;
+        }
     }
 }
 

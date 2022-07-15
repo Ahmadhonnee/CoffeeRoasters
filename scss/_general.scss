@@ -4,6 +4,13 @@
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
+*::selection{
+    color: #0E8784;
+    background: #2C343E;
+}
 
 .container {
     max-width: 1440px !important;

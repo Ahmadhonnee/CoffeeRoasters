@@ -4,6 +4,20 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+*::-moz-selection {
+  color: #0E8784;
+  background: #2C343E;
+}
+
+*::selection {
+  color: #0E8784;
+  background: #2C343E;
+}
+
 .container {
   max-width: 1440px !important;
   padding: 0 80px !important;
@@ -884,6 +898,13 @@ ul {
   padding: 15px 30px;
   margin-top: 40px;
   margin-left: auto;
+  border: none;
+}
+.forms__btn:hover {
+  opacity: 0.9;
+}
+.forms__btn:active {
+  opacity: 0.8;
 }
 
 #checkbox1:checked ~ .dropdown__items {
