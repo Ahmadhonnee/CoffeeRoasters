@@ -1039,11 +1039,12 @@ input[type=radio] {
   font-family: "Fraunces";
   font-style: normal;
   font-weight: 900;
-  font-size: 32px;
-  line-height: 36px;
-  color: #333D4B;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
 }
 .headquarters__text > ul {
+  margin-top: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1062,6 +1063,7 @@ input[type=radio] {
   font-size: 32px;
   line-height: 36px;
   color: #333D4B;
+  margin: 25px 0;
 }
 .headquarters__text > ul > li > p {
   font-family: "Barlow";
@@ -1070,6 +1072,14 @@ input[type=radio] {
   font-size: 16px;
   line-height: 26px;
   color: #333D4B;
+}
+
+.headquarters__two::before {
+  content: url(../img/canada.svg) !important;
+}
+
+.headquarters__three::before {
+  content: url(../img/australia.svg) !important;
 }
 
 .footer {

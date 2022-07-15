@@ -92,11 +92,12 @@
             font-family: 'Fraunces';
             font-style: normal;
             font-weight: 900;
-            font-size: 32px;
-            line-height: 36px;
-            color: #333D4B;
+            font-size: 24px;
+            line-height: 32px;
+            color: #83888F;
         }
         & > ul{
+            margin-top: 70px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -113,6 +114,7 @@
                     font-size: 32px;
                     line-height: 36px;
                     color: #333D4B;
+                    margin: 25px 0;
                 }
                 &>p{
                     font-family: 'Barlow';
@@ -125,4 +127,10 @@
             }
         }
     }
+}
+.headquarters__two::before{
+    content: url(../img/canada.svg) !important;
+}
+.headquarters__three::before{
+    content: url(../img/australia.svg) !important;
 }
