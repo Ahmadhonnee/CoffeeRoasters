@@ -1056,6 +1056,9 @@ input[type=radio] {
   align-items: flex-start;
   justify-content: center;
 }
+.headquarters__text {
+  margin-top: 100px;
+}
 .headquarters__text > h3 {
   font-family: "Fraunces";
   font-style: normal;
