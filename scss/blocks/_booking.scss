@@ -1,0 +1,80 @@
+.booking{
+    margin-top: 300px;
+    margin-bottom: 100px;
+    &__progress__line{
+        width: 760px;
+        height: 1px;
+        border: 3px solid #FDD6BA;
+        background-color: #FDD6BA;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 80px;
+        position: relative;
+    }
+    &__cards{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 70px;
+        margin-bottom: 65px;
+    }
+    &__intro{
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #83888F;
+    }
+    &__card{
+        width: 285px;
+        height: 400px;
+    }
+    &__p1{
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: #FDD6BA;
+        padding: 20px 0;
+    }
+    &__h4{
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        color: #333D4B;
+        padding: 20px 0;
+        width: 255px;
+    }
+    &__p2{
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+        padding: 20px 0;
+    }
+}
+
+.line__circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: white;
+    border: 1px solid #0E8784;
+}
+.first{
+    position: absolute;
+    left: -10px;
+}
+.last{
+    position: absolute;
+    right: -10px;
+}

@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px !important;
+    padding: 0 80px !important;
+    margin: 0 auto !important;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0)
+}
+.dropdown{
+    position: relative;
+
+}
+.dropdown__items{
+    min-height: 250px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-50px);
+    transition: all .5s ease;
+}

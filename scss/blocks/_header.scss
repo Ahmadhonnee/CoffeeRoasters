@@ -1,0 +1,38 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 10;
+}
+ul{
+    list-style: none;
+}
+.navbar__items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 33px;
+}
+.navbar__item{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+    &:hover{
+        color: #333D4B;
+    }
+    &>a{
+        text-decoration: none;
+        color: inherit;
+    }
+}
