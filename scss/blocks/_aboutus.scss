@@ -1,3 +1,128 @@
-.her2{
+.hero2{
     background: url(../img/aboutuzimg.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: fill;
+    padding: 80px 100px;
+    overflow: hidden;
+}
+.commitment{
+    margin-top: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    &__image{
+        width: 445px;
+        height: 520px;
+        background: url(../img/coffeeman.jpg);
+    }
+    &__text{
+        width: 540px;
+        height: 340px;
+        & > h2{
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 48px;
+            color: #333D4B;
+        }
+        & > p{
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: #333D4B;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+        }
+    }    
+}
+.quality{
+    margin-top: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #2C343E;
+    padding: 85px;
+    height: 470px;
+    border-radius: 10px;
+    position: relative;
+    &::before{
+        content: url(../img/qualityimg.png);
+        position: absolute;
+        top: -80px;
+        right: 50px;
+        border-radius: 10px;
+        width: 445px;
+        height: 478px;
+        overflow: hidden;
+    }
+    &__text{
+        width: 540px;
+        &>h2{
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 48px;
+            color: #FEFCF7;
+        }
+        &>p{
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: #FEFCF7;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+        }
+    }
+}
+.headquarters{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    &__text{
+        & > h3{
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 32px;
+            line-height: 36px;
+            color: #333D4B;
+        }
+        & > ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 250px;           
+            &>li{
+                &::before{
+                    content: url(../img/uk.svg);
+                }
+                list-style: none;
+                &>h4{
+                    font-family: 'Fraunces';
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 32px;
+                    line-height: 36px;
+                    color: #333D4B;
+                }
+                &>p{
+                    font-family: 'Barlow';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: #333D4B;
+                }
+            }
+        }
+    }
 }
