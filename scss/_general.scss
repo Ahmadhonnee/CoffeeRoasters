@@ -11,6 +11,12 @@ html{
     color: #0E8784;
     background: #2C343E;
 }
+a:hover{
+    opacity: 0.8;    
+}
+a:active{
+    opacity: 0.6;    
+}
 
 .container {
     max-width: 1440px !important;
