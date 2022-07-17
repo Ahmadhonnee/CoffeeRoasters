@@ -123,9 +123,11 @@
     &__input{
         appearance: none;
         display: none;
+        transition: all .5s ease-in;
     }
     &__label:hover{
-        background: #0E8784
+        background: #0E8784;
+        transition: all .1s ease-in;
     }
     &__input:checked + .forms__label{
         background: #FDD6BA;

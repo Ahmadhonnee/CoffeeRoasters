@@ -19,6 +19,11 @@ html {
   background: #2C343E;
 }
 
+a {
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
 a:hover {
   opacity: 0.8;
 }
@@ -983,9 +988,13 @@ ul {
      -moz-appearance: none;
           appearance: none;
   display: none;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
 }
 .forms__label:hover {
   background: #0E8784;
+  -webkit-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
 }
 .forms__input:checked + .forms__label {
   background: #FDD6BA;
