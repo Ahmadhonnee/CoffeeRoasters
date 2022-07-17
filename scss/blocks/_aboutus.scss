@@ -7,6 +7,20 @@
     padding: 80px 100px;
     overflow: hidden;
 }
+@media
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (   min--moz-device-pixel-ratio: 2),
+    only screen and (     -o-min-device-pixel-ratio: 2/1),
+    only screen and (        min-device-pixel-ratio: 2),
+    only screen and (                min-resolution: 192dpi),
+    only screen and (                min-resolution: 2dppx) { 
+    
+        .hero2{
+            background:  url(../img/aboutus@2.png) no-repeat;
+            background-size: cover;
+            object-fit: fill;
+        }
+    } 
 .commitment{
     margin-top: 160px;
     display: flex;
@@ -40,6 +54,17 @@
         }
     }    
 }
+@media
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (   min--moz-device-pixel-ratio: 2),
+    only screen and (     -o-min-device-pixel-ratio: 2/1),
+    only screen and (        min-device-pixel-ratio: 2),
+    only screen and (                min-resolution: 192dpi),
+    only screen and (                min-resolution: 2dppx) { 
+        .commitment__image{
+            background: url(../img/coffeeman@2.jpg);
+        }
+    } 
 .quality{
     margin-top: 160px;
     display: flex;
@@ -82,6 +107,17 @@
         }
     }
 }
+@media
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (   min--moz-device-pixel-ratio: 2),
+    only screen and (     -o-min-device-pixel-ratio: 2/1),
+    only screen and (        min-device-pixel-ratio: 2),
+    only screen and (                min-resolution: 192dpi),
+    only screen and (                min-resolution: 2dppx) { 
+        .quality::before{
+            content: url(../img/qualityimg@2.png);
+        }
+    } 
 .headquarters{
     display: flex;
     flex-direction: column;

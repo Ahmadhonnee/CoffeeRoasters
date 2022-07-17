@@ -6,6 +6,18 @@
     object-fit: fill;
     padding: 80px 100px;
 }
+@media
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (   min--moz-device-pixel-ratio: 2),
+    only screen and (     -o-min-device-pixel-ratio: 2/1),
+    only screen and (        min-device-pixel-ratio: 2),
+    only screen and (                min-resolution: 192dpi),
+    only screen and (                min-resolution: 2dppx) { 
+        .hero{
+            background: url(../img/coffeeimg@2.jpg) no-repeat;
+            object-fit: fill;
+        }    
+    } 
 .planning{
     width: 495px;
     &__h1{
