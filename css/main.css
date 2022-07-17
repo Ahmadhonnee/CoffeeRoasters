@@ -993,8 +993,8 @@ ul {
 }
 .forms__label:hover {
   background: #0E8784;
-  -webkit-transition: all 0.1s ease-in;
-  transition: all 0.1s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
 }
 .forms__input:checked + .forms__label {
   background: #FDD6BA;
